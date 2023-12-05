@@ -1,0 +1,158 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body {
+    max-width: 1000px;
+    height: auto;
+
+    margin: 0 auto;
+    margin-top: 20px;
+
+    background-color: #1A1B26;
+    border: 2px solid;
+    border-image: linear-gradient(#fb6e97,#e11bb4,#7f07ec) 10;
+
+    transition: .2s;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* ширина scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #fb6e97;        /* цвет дорожки */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #e11bb4;    /* цвет плашки */
+    border-radius: 20px;       /* закругления плашки */
+    border: 3px solid #e11bb4;  /* padding вокруг плашки */
+}
+
+body:hover {
+    max-width: 1200px;
+
+    box-shadow: 0px 0px 50px 0px #ff0077;
+}
+
+h1, h2, h3, h4 {
+    margin-left: 20px;
+
+    transition: .2s
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    font-size: 40px;
+    font-weight: bold;
+
+    color: #EE5B61;
+}
+
+h2 {
+    margin-bottom: 20px;
+
+    font-size: 35px;
+    font-weight: bold;
+    color: #D39250;
+}
+
+h3 {
+    margin-bottom: 20px;
+
+    font-size: 30px;
+    font-weight: bold;
+    color: #7CCE6A;
+
+}
+
+h4 {
+    margin-bottom: 20px;
+
+    font-size: 25px;
+    font-weight: bold;
+    color: #62BEFD;
+}
+
+mark {
+    background-color: #d3915081;
+    color: white;
+}
+
+h1:hover{
+    text-shadow: #ff0077 5px 5px 20px;
+}
+
+h2:hover {
+    text-shadow: #ff8000 5px 5px 20px;
+}
+
+h3:hover {
+    text-shadow: #2fff00 5px 5px 20px;
+}
+
+h4:hover {
+    text-shadow: #0099ff 5px 5px 20px;
+}
+
+ol {
+    margin-left: 40px;
+}
+
+
+p, li, a {
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+    font-size: 20px;
+    line-height: 30px;
+    color: #bdbdbd;
+
+    transition: .2s;
+}
+
+a {
+    margin: 0;
+}
+
+p:hover, li:hover {
+    color: rgb(219, 240, 255);
+}
